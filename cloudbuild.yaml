@@ -1,6 +1,6 @@
 steps:
 
-- id: "Instalando o desafio-ci"
+- id: "Instalando o desafio-ci..."
   name: 'gcr.io/cloud-builders/go'
   args: ['install', 'desafio-ci']
   env: ['GOPATH=.']
